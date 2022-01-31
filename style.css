@@ -7,6 +7,13 @@
 h1{
     font-family: 'Poppins', sans-serif; 
     font-weight: bold;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .welcome{
     margin-bottom: 30px;
@@ -31,6 +38,7 @@ h1{
     word-spacing: 8px;
     color: #978C8C;
 }
+
 .hire{
     border: 0;
     background: #FF6D4F;
@@ -40,4 +48,31 @@ h1{
     margin-top: 15px;
     color: #fff;
     font-weight: bolder;
+}
+#dream-area{
+    background-image:url("images/dream-bg.png");
+}
+#dream-area .half-dream{
+    width: 40%;
+    margin-top: 291px;
+    float: left;
+}
+#dream-area h3{
+    margin-top: 30px;
+}
+#dream-area p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#dream-area .hire{
+    padding: 8px 10px;
+    text-decoration: none;
+    background: linear-gradient(120deg, black, red );
+}
+#experience-area{
+margin-top:100px;
+}
+.single{
+    width: 40%;
 }
